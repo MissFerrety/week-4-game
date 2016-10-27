@@ -1,0 +1,124 @@
+/* ==================================================================== 
+/* Twinkling Stars background derived from
+/* https://codepen.io/WebSonick/pen/vjmgu
+/* ==================================================================== */
+
+@keyframes move-twink-back {
+	from { background-position:0 0; }
+	to   { background-position:-10000px 5000px; }
+}
+@-webkit-keyframes move-twink-back {
+	from { background-position:0 0; }
+	to   { background-position:-10000px 5000px; }
+}
+@-moz-keyframes move-twink-back {
+	from { background-position:0 0; }
+	to   { background-position:-10000px 5000px; }
+}
+@-ms-keyframes move-twink-back {
+	from { background-position:0 0; }
+	to   { background-position:-10000px 5000px; }
+}
+
+*{
+	z-index: 1;
+}
+html{
+	height: 100%;
+	background:#000 url(../images/stars.png) repeat top center;
+}
+body{
+	text-align: center;
+	min-height: 100%;
+	color: white;
+	background:transparent url(../images/twinkling.png) repeat top center;
+	-moz-animation:move-twink-back 200s linear infinite;
+	-ms-animation:move-twink-back 200s linear infinite;
+	-o-animation:move-twink-back 200s linear infinite;
+	-webkit-animation:move-twink-back 200s linear infinite;
+	animation:move-twink-back 200s linear infinite;
+}
+img{
+	max-width: 100%;
+}
+
+.noshow{
+	display: none;
+}
+
+
+.site-header{
+	padding: 20px 0;
+}
+
+.page-title{
+	margin: 0;
+}
+
+.section{
+	text-align: center;
+}
+.section-title{
+	margin-bottom: 2em;
+}
+.char-box{
+	cursor: pointer;
+	display: inline-block;
+	padding: 20px;
+	max-width: 300px;
+}
+.char-box.active .char-image{
+	border-color: limegreen;
+}
+.char-image{
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 15px;
+}
+.char-image:hover{
+	background: rgba(255,255,255,0.15);
+}
+.hp-bar{
+	width: 100%;
+	max-width: 200px;
+	margin: 0 auto;
+	position: relative;
+	height: 25px;
+	line-height: 25px;
+}
+.hp-fill{
+	position: absolute;
+	background: green;
+	width: 100%;
+	height: 100%;
+}
+.hp-num{
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+
+#btn-fight{
+	cursor: pointer;
+}
+
+
+#select-screen .char-box{
+	width: 25%;
+}
+#fight .char-box{
+}
+
+
+@media (min-width: 768px){
+	.char-image img{
+		width: 100%;
+	}
+}
+@media (min-width: 992px){
+
+}
+@media (min-width: 1200px){
+
+}
