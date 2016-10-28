@@ -20,7 +20,7 @@
 		<h2 class="section-title" id="title-player">Choose your player</h2>
 		<h2 class="section-title noshow" id="title-enemy">Choose your adversary</h2>
 		<div id="div-chars" class="div-chars row">
-			<div class="char-box" id="human" data-hp="150" data-atk="8" data-def="10">
+			<div class="char-box" id="human" data-hp="150" data-atk="8" data-def="12">
 				<div class="char-win noshow">
 					<h3 class="quote"><q>The line must be drawn here! This far, no farther!</q></h3>
 				</div>
@@ -32,7 +32,7 @@
 				<div class="hp-bar"><div class="hp-fill"></div><span class="hp-text"></span></div>
 			</div><!--
 
-			--><div class="char-box" id="klingon" data-hp="180" data-atk="10" data-def="5">
+			--><div class="char-box" id="klingon" data-hp="160" data-atk="10" data-def="8">
 				<div class="char-win noshow">
 					<h3 class="quote"><q>potlhbe’chugh yay qatlh pe’’eghlu’.</q></h3>
 					<h4 class="translate">If winning is not important, why keep score?</h4>
@@ -46,7 +46,7 @@
 				<div class="hp-bar"><div class="hp-fill"></div><span class="hp-text"></span></div>
 			</div><!--
 
-			--><div class="char-box" id="cardassian" data-hp="120" data-atk="10" data-def="12">
+			--><div class="char-box" id="cardassian" data-hp="120" data-atk="10" data-def="15">
 				<div class="char-win noshow">
 					<h3 class="quote"><q>I hope you realize the consequences of Federation officers firing on Cardassian troops!</q></h3>
 				</div>
@@ -58,7 +58,7 @@
 				<div class="hp-bar"><div class="hp-fill"></div><span class="hp-text"></span></div>
 			</div><!--
 
-			--><div class="char-box" id="borg" data-hp="220" data-atk="4" data-def="25">
+			--><div class="char-box" id="borg" data-hp="180" data-atk="3" data-def="20">
 				<div class="char-win noshow">
 					<h3 class="quote"><q>We are Borg. Resistance is futile.</q></h3>
 				</div>
